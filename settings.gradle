@@ -13,4 +13,4 @@ plugins {
 }
 
 rootProject.name = 'atcoder-solutions-java'
-include('lib')
+include('program')
