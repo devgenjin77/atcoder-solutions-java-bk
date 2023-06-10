@@ -5,7 +5,7 @@
  * https://atcoder.jp/contests/abc302/tasks/abc302_c
  *
  * verified:
- * - https://atcoder.jp/contests/abc302/submissions/42107270
+ * - https://atcoder.jp/contests/abc302/submissions/42112737
  *
  * note:
  * 順列生成
@@ -58,7 +58,7 @@ public class Main {
     System.out.println(isOK ? "Yes" : "No");
   }
 
-  static boolean nextPermutation(int[] array) {
+  static boolean nextPermutation(final int[] array) {
     int idx1 = array.length - 1;
     while (idx1 > 0 && array[idx1 - 1] >= array[idx1]) {
       idx1--;
