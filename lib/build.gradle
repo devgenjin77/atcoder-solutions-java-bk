@@ -20,11 +20,17 @@ dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
 
+    // Use JUnit Jupiter Params for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.9.1'
+
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api 'org.apache.commons:commons-math3:3.6.1'
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:31.1-jre'
+
+    // Use Commons IO
+    testImplementation group: 'commons-io', name: 'commons-io', version:'2.11.0'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
