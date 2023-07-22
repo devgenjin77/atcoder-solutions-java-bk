@@ -1,8 +1,8 @@
 /*
  * CodeQUEEN 2023 予選
  * （AtCoder Beginner Contest 308）
- * B - Default Price
- * https://atcoder.jp/contests/abc308/tasks/abc308_b
+ * C - Standings
+ * https://atcoder.jp/contests/abc308/tasks/abc308_c
  *
  * verified:
  * - https://atcoder.jp/contests/abc308/submissions/43319640
