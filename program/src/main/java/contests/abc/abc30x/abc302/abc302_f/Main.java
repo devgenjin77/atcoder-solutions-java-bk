@@ -5,19 +5,20 @@
  * https://atcoder.jp/contests/abc302/tasks/abc302_f
  *
  * verified:
- * - https://atcoder.jp/contests/abc302/submissions/43757745
+ * - https://atcoder.jp/contests/abc302/submissions/43814690
  *
  * note:
- * 1-(1,2,3)-3-(3,4)-4 という感じで、整数と集合を繋げるグラフを構築しダイクストラ
+ * 1-(1,2,3)-3-(3,4)-4 という感じで、整数と集合を繋げるグラフを構築しBFS
  *
  */
 
 package contests.abc.abc30x.abc302.abc302_f;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class Main {
 
@@ -40,7 +41,7 @@ public class Main {
       }
     }
     sc.close();
-    final PriorityQueue<IntPair> queue = new PriorityQueue<>();
+    final Queue<IntPair> queue = new ArrayDeque<>();
     final int[] dists = new int[m + n];
     Arrays.fill(dists, INF);
     dists[0] = 0;
